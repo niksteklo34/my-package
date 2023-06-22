@@ -6,6 +6,6 @@ class MyPackage
 {
     public function hello(): string
     {
-        return 'Hello world, from my package!';
+        return 'Hello world, from my package!!!';
     }
 }

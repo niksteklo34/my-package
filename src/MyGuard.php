@@ -9,8 +9,12 @@ class MyGuard
 {
     use GuardHelpers;
 
-    public function __invoke(Request $request)
+    public function __invoke(Request $request): object
     {
-        return 'user!';
+        return (object) [
+            'id' => 1,
+            'name' => 'Nikita',
+            'surname' => 'Sokol',
+        ];
     }
 }

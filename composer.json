@@ -22,10 +22,10 @@
       ]
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": "8.1.*",
-    "illuminate/auth": "10.x-dev",
+    "illuminate/auth": "10.x",
     "ext-http": "*"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "niksteklo34/my-package",
+  "description": "Description",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikita",
+      "email": "nik123mik456@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyPackage\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "8.1.*"
+  }
+}

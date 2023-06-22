@@ -2,7 +2,7 @@
 
 namespace MyPackage;
 
-use http\Client\Request;
+use Illuminate\Http\Request;
 use Illuminate\Auth\GuardHelpers;
 
 class MyGuard
